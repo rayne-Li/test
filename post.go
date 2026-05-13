@@ -34,7 +34,7 @@ func main() {
 	}
 
 	fmt.Println(string(body))
-
+	fmt.Println(err.Error())
 	// gggggggggggggg
 	// balabababa
 }
