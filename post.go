@@ -1,11 +1,11 @@
 package main
 
 import (
-	"net/http"
-	"io/ioutil"
-	"fmt"
-	"encoding/json"
 	"bytes"
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"net/http"
 )
 
 type user struct {
@@ -34,4 +34,6 @@ func main() {
 	}
 
 	fmt.Println(string(body))
+
+	// gggggggggggggg
 }
